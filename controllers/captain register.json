@@ -1,0 +1,20 @@
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhlMWVmMDhkMGMyNWQ4NTMzNjFmZmEiLCJpYXQiOjE3MzczNjcyODAsImV4cCI6MTczNzQ1MzY4MH0.uoqx387jw3TFAZIumhWvfygkc76ZDr4mTbIYrtZylpk",
+  "captain": {
+    "fullname": {
+      "firstname": "test_captain_firstname",
+      "lastname": "test_captain_lastname"
+    },
+    "email": "test@email.com",
+    "password": "$2b$10$wCYH8H0PRr0JBERLHOw2g.weRhec1/ut1xfWNwnVoaYDN25XdJ/7e",
+    "status": "inactive",
+    "vehicle": {
+      "color": "red",
+      "plate": "MP 9900",
+      "capacity": 3,
+      "vehicleType": "car"
+    },
+    "_id": "678e1ef08d0c25d853361ffa",
+    "__v": 0
+  }
+}
