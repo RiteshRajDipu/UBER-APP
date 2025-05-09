@@ -45,7 +45,7 @@ module.exports.loginUser = async (req, res, next) => {
     const isMatch = await user.comparePassword(password);
 
     if(!isMatch) {
-        return res.status('401').json({ message: "password is not correct"})
+        return res.status(401).json({ message: "password is not correct"})
     }
 
     const token = user.generateAuthToken();
